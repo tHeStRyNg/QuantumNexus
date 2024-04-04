@@ -1,4 +1,4 @@
-# Poly-Flash
+# Flash
 
 An open source flashloan smart contract on polygon network
 
