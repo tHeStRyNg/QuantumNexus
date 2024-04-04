@@ -19,12 +19,12 @@ cd QuantumNexus
 
 ### 1. Setup Environment Variables
 
-You'll need an `ALCHEMY_POLYGON_RPC_URL` environment variable. You can get one from [Alchemy website](https://alchemy.com/?r=33851811-6ecf-40c3-a36d-d0452dda8634) for free.
+You'll need an `ALCHEMY_RPC_URL` environment variable. You can get one from [Alchemy website](https://alchemy.com/?r=33851811-6ecf-40c3-a36d-d0452dda8634) for free.
 
 Then, you can create a .env file with the following.
 
 ```
-ALCHEMY_POLYGON_RPC_URL='<your-own-alchemy-polygon-mainnet-rpc-url>'
+ALCHEMY_RPC_URL='<your-own-alchemy-polygon-mainnet-rpc-url>'
 ```
 
 #### Add your Private Key
