@@ -50,7 +50,7 @@ yarn install
 Run the following command.
 
 ```bash
-yarn compile
+npm install --save-dev hardhat --legacy-peer-deps
 ```
 
 ### 4. Test on ETH Mainnet Fork 🔥
