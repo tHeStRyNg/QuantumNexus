@@ -66,7 +66,7 @@ yarn test test/dodoflash.test.ts
 Once you have successfully done the above quickstart and added your private key to .env file, you can deploy your smart contract with the following command:
 
 ```bash
-yarn deploy --network sepoliaa
+yarn deploy --network sepolia
 ```
 
 It costs about 0.2 MATIC to deploy `Flashloan` contract.
