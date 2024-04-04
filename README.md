@@ -1,4 +1,4 @@
-# Poly-Flash
+# Flash
 
 An open source flashloan smart contract on polygon network
 
@@ -19,17 +19,17 @@ cd QuantumNexus
 
 ### 1. Setup Environment Variables
 
-You'll need an `ALCHEMY_POLYGON_RPC_URL` environment variable. You can get one from [Alchemy website](https://alchemy.com/?r=33851811-6ecf-40c3-a36d-d0452dda8634) for free.
+You'll need an `ALCHEMY_RPC_URL` environment variable. You can get one from [Alchemy website](https://alchemy.com/?r=33851811-6ecf-40c3-a36d-d0452dda8634) for free.
 
 Then, you can create a .env file with the following.
 
 ```
-ALCHEMY_POLYGON_RPC_URL='<your-own-alchemy-polygon-mainnet-rpc-url>'
+ALCHEMY_RPC_URL='<your-own-alchemy-ethereum-mainnet-rpc-url>'
 ```
 
 #### Add your Private Key
 
-If you want to execute flashloan on the polygon mainnet, you need to add your `PRIVATE_KEY` environment variable, [with a private key from your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
+If you want to execute flashloan on the ethereum mainnet, you need to add your `PRIVATE_KEY` environment variable, [with a private key from your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
 
 ```
 PRIVATE_KEY='your-PRIVATE_KEY'
@@ -53,12 +53,12 @@ Run the following command.
 yarn compile
 ```
 
-### 4. Test on Polygon Mainnet Fork 🔥
+### 4. Test on ETH Mainnet Fork 🔥
 
 Run the following command.
 
 ```bash
-yarn test test/polygon/dodoflash.test.ts
+yarn test test/dodoflash.test.ts
 ```
 
 ## Deploy
@@ -66,24 +66,24 @@ yarn test test/polygon/dodoflash.test.ts
 Once you have successfully done the above quickstart and added your private key to .env file, you can deploy your smart contract with the following command:
 
 ```bash
-yarn deploy --network polygon
+yarn deploy --network sepoliaa
 ```
 
 It costs about 0.2 MATIC to deploy `Flashloan` contract.
 
 ## Example Contract
 
-https://polygonscan.com/address/0xb6c4448386c4ecf4e5eab057351f8a6a8a465a0d
+https://etherscan.com/address/0xb6c4448386c4ecf4e5eab057351f8a6a8a465a0d
 
 ## Liquidations
 
-Deploy on the polygon mainnnet fork with the following command:
+Deploy on the ethereum mainnnet fork with the following command:
 
 ```bash
 yarn liquidations
 ```
 
-Deploy on the polygon mainnnet with the following command:
+Deploy on the ethereum mainnnet with the following command:
 
 ```bash
 yarn liquidations --network polygon
