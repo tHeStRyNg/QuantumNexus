@@ -24,12 +24,12 @@ You'll need an `ALCHEMY_RPC_URL` environment variable. You can get one from [Alc
 Then, you can create a .env file with the following.
 
 ```
-ALCHEMY_RPC_URL='<your-own-alchemy-polygon-mainnet-rpc-url>'
+ALCHEMY_RPC_URL='<your-own-alchemy-ethereum-mainnet-rpc-url>'
 ```
 
 #### Add your Private Key
 
-If you want to execute flashloan on the polygon mainnet, you need to add your `PRIVATE_KEY` environment variable, [with a private key from your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
+If you want to execute flashloan on the ethereum mainnet, you need to add your `PRIVATE_KEY` environment variable, [with a private key from your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
 
 ```
 PRIVATE_KEY='your-PRIVATE_KEY'
