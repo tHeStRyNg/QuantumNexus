@@ -53,12 +53,12 @@ Run the following command.
 yarn compile
 ```
 
-### 4. Test on Polygon Mainnet Fork 🔥
+### 4. Test on ETH Mainnet Fork 🔥
 
 Run the following command.
 
 ```bash
-yarn test test/polygon/dodoflash.test.ts
+yarn test test/dodoflash.test.ts
 ```
 
 ## Deploy
@@ -66,24 +66,24 @@ yarn test test/polygon/dodoflash.test.ts
 Once you have successfully done the above quickstart and added your private key to .env file, you can deploy your smart contract with the following command:
 
 ```bash
-yarn deploy --network polygon
+yarn deploy --network sepoliaa
 ```
 
 It costs about 0.2 MATIC to deploy `Flashloan` contract.
 
 ## Example Contract
 
-https://polygonscan.com/address/0xb6c4448386c4ecf4e5eab057351f8a6a8a465a0d
+https://etherscan.com/address/0xb6c4448386c4ecf4e5eab057351f8a6a8a465a0d
 
 ## Liquidations
 
-Deploy on the polygon mainnnet fork with the following command:
+Deploy on the ethereum mainnnet fork with the following command:
 
 ```bash
 yarn liquidations
 ```
 
-Deploy on the polygon mainnnet with the following command:
+Deploy on the ethereum mainnnet with the following command:
 
 ```bash
 yarn liquidations --network polygon
